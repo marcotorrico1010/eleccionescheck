@@ -15,7 +15,7 @@
       return $new_img_info;
     }
 
-$total_items = range(50995, 50999);
+$total_items = range(50999, 50999);
         if(count($total_items)>0){
             foreach($total_items as $total_item){
                 $image_result = getExifData('https://trep.oep.org.bo/resul/imgActa/'.$total_item.'1.jpg');
